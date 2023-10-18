@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       li:nth-child(3n + 1){
+        color: yellowgreen;
+       }
+       input:focus{
+        border: 4px solid lightseagreen;
+        border-radius: 5px;
+        outline: none;
+       }     
+       input:active{
+          box-shadow: 5px 5px 5px grey;
+       }
+
+       /* :visited, :target, :checked, :active */
+    </style>
+</head>
+<body>
+    <!-- selector:psedo-class{
+        
+    } -->
+
+    <ul>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+    </ul>
+
+    <input type="text">
+</body>
+</html>

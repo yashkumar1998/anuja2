@@ -1,0 +1,14 @@
+/* 1. Element selector
+2. id selector
+3. class selector */
+p{
+   color: red; 
+}
+
+#kuchnhi{
+    color: blue;
+}
+
+.w{
+    color: deeppink;
+}

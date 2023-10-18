@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #div1{
+        width: 70%;
+        float:left;
+        background-color: lightgreen;
+    }
+    #div2{
+        width: 30%;
+        float: right;
+        background-color: lightsalmon;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    @media screen  and (min-width: 768px){
+        #div1{
+           width: 50%;
+           background-color: aquamarine;
+        }
+        #div2{
+            width: 50%;
+           background-color: lightseagreen;
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        #div1{
+            color: blue;
+            background-color: red;
+        }
+        #div2{
+            color: red;
+            background-color: blue;
+        }
+    }
+</style>
+    
+</head>
+<body>
+    <div id="div1">
+        <h1>Div1</h1>
+    </div>
+    <div id="div2">
+        <h1>Div2</h1>
+    </div>
+
+</body>
+</html>
